@@ -1,0 +1,54 @@
+@charset "UTF_8";
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Bebas+Neue&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Agdasima 
+max-width: 500px; // Limite maximo do texto
+white-space: nowrap; // Removendo quebra de linha
+overflow: hidden; // Removendo a barra de rolagem
+text-overflow: ellipsis; // Adicionando "..." ao final do texto
+
+
+overflow: hidden; // Removendo barra de rolagem
+text-overflow: ellipsis; // Adicionando "..." ao final
+display: -webkit-box;
+-webkit-line-clamp: 2; // Quantidade de linhas
+-webkit-box-orient: vertical; 
+
+
+
+
+*/
+
+:root {
+    --cor1: #81604c;
+    --cor2: #70513d;
+    --cor3: #5f422f;
+    --cor4: #4e3220;
+    --cor5: #3d2311;
+
+    --fonte-escrita: arial, verdana, helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-padrao: 'Agdasima', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+body {
+    background-image: url(foto/Artistico\ Madeira\ HD\ Papel\ De\ Parede.jpg);
+}
+
+div.minhafoto {
+    border: 20px solid var(--cor5);
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 5%;
+    top: 20%;
+}
+div#foto1 {
+    background-image: url(foto/minhaimagem.jpg);
+}
