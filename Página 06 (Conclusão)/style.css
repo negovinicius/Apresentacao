@@ -40,15 +40,11 @@ body {
     background-image: url(foto/Artistico\ Madeira\ HD\ Papel\ De\ Parede.jpg);
 }
 
-div.minhafoto {
-    border: 20px solid var(--cor5);
-    border-radius: 10px;
+article {
     width: 400px;
-    height: 400px;
-    position: absolute;
-    left: 5%;
-    top: 20%;
+    padding-top: 100px;
+    margin: auto;
 }
 div#foto1 {
-    background-image: url(foto/minhaimagem.jpg);
+    border: 30px black;
 }
