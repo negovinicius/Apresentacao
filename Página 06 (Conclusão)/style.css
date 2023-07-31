@@ -41,10 +41,15 @@ body {
 }
 
 article {
-    width: 400px;
+    width: 500px;
     padding-top: 100px;
     margin: auto;
 }
-div#foto1 {
-    border: 30px black;
+img {
+    border: 15px solid var(--cor5);
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.747);
+}
+.minhafoto {
+    text-align: center;
 }
