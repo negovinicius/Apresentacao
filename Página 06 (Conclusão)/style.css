@@ -26,7 +26,7 @@ display: -webkit-box;
     --cor4: #4e3220;
     --cor5: #3d2311;
 
-    --fonte-escrita: arial, verdana, helvetica, sans-serif;
+
     --fonte-destaque: 'Bebas Neue', cursive;
     --fonte-padrao: 'Agdasima', cursive;
 }
@@ -34,13 +34,13 @@ display: -webkit-box;
 * {
     margin: 0px;
     padding: 0px;
-    overflow: hidden;
 }
 body {
     background-image: url(foto/Artistico\ Madeira\ HD\ Papel\ De\ Parede.jpg);
 }
 
 article {
+    max-width: 500px;
     width: 500px;
     padding-top: 100px;
     margin: auto;

@@ -35,7 +35,6 @@ display: -webkit-box;
 * {
     margin: 0px;
     padding: 0px;
-    overflow: hidden;
 }
 
 body {
@@ -46,7 +45,7 @@ body {
 header {
     background-image: linear-gradient(var(--cor3), var(--cor2), var(--cor3));
     text-align: center;
-    margin-top: 70px;
+    margin-top: 60px;
     padding: 21px;
     color: white;
     font-family: var(--fonte-destaque);
@@ -58,7 +57,7 @@ header > h2 {
 
 body > p {
     background-image: linear-gradient(var(--cor3), var(--cor2), var(--cor3), var(--cor3));
-    padding: 35px 10px 30px 10px;
+    padding: 35px 10px 25px 10px;
     text-indent: 15px;
     max-width: 355px;
     margin: auto;
@@ -114,6 +113,7 @@ nav > p {
     color: white;
     font-size: 2em;
     display: inline-block;
+    margin: 0px 0px 5px 2px;
 }
 nav > p > a:hover {
     background-color: #000000;

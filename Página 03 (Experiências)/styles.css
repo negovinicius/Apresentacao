@@ -58,13 +58,13 @@ header > h2 {
 main {
     text-align: justify;
     columns: 2;
-    max-width: 810px;
+    max-width: 750px;
     margin: auto;
     background-image: linear-gradient(var(--cor3), var(--cor2), var(--cor3), var(--cor3));
-    font-family: var(--fonte-escrita);
-    font-size: 15px;
+    font-family: var(--fonte-padrao);
+    font-size: 1em;
     margin-top: -10px;
-    padding-bottom: 20px;
+    padding: 15px;
 }
 aside {
     margin-top: -25px;
@@ -87,8 +87,8 @@ aside {
 aside > p {
     text-align: center;
     background-color: var(--cor3);
-    padding: 5px 0px 2px 0px;
-    max-width: 810px;
+    padding: 5px 0px 48px 0px;
+    max-width: 780px;
     margin: auto;
     margin-top: -30px;
     font-family: var(--fonte-escrita);
