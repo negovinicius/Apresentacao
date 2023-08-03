@@ -39,6 +39,12 @@ display: -webkit-box;
 body {
     background-image: url(icones.my/Artistico\ Madeira\ HD\ Papel\ De\ Parede.jpg);
     background-color: var(--cor2);
+    background-size: 100% 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 97vh;
+    padding: 10px;
 }
 
 header {
@@ -60,7 +66,7 @@ main {
     max-width: 200px;
     text-align: center;
     margin: auto;
-    padding: 10px 10px 48px 10px;
+    padding: 10px 10px 20px 10px;
     background-image: linear-gradient(var(--cor3), var(--cor2), var(--cor3));
     font-family: var(--fonte-escrita);
     font-size: 16px
@@ -133,7 +139,4 @@ ul {
 }
 a.link::after {
     content: '\00A0\2197';
-}
-footer {
-    padding: 10px 10px 15px 10px;
 }

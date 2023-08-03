@@ -40,6 +40,12 @@ display: -webkit-box;
 body {
     background-image: url(Artistico\ Madeira\ HD\ Papel\ De\ Parede.jpg);
     background-color: var(--cor2);
+    background-size: 100% 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 97vh;
+    padding: 10px;
 }
 
 header {
@@ -58,7 +64,7 @@ main {
     max-width: 450px;
     text-align: justify;
     margin: auto;
-    padding: 20px 10px 75px 10px;
+    padding: 20px 10px 20px 10px;
     background-image: linear-gradient(var(--cor3), var(--cor2), var(--cor3));
     font-family: var(--fonte-padrao);
     font-size: 1.1em;

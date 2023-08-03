@@ -42,31 +42,28 @@ display: -webkit-box;
     position: relative;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 100vh;
+    height: 97vh;
     padding: 10px;
 }
 #foto1 {
     background-image: url(foto/minhaimagem.jpg);
     background-size: 100% 100%;
     background-color: var(--cor4);
-    height: 400px;
-    width: 400px;
+    height: 250px;
+    width: 250px;
     position: absolute;
-
+    border: 15px solid var(--cor5);
+    border-radius: 50%;
     left: 50%;
     top: 50%;
-
     transform: translate(-50%, -50%);
 }
-img {
-    max-width: 350px;
-    border: 15px solid var(--cor5);
-    border-radius: 10px;
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.747);
-    position: relative;
-    background-size: 100% 100%;
-    transform: translate(-10%, 30%);
-}
-.minhafoto {
+#frase {
     text-align: center;
+    margin-top: 100px;
+}
+footer {
+    text-align: center;
+    margin-top: 350px;
+    padding: 30px;
 }
