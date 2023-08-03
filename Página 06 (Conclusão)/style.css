@@ -35,9 +35,28 @@ display: -webkit-box;
     margin: 0px;
     padding: 0px;
 }
-body {
+#background {
     background-image: url(foto/Artistico\ Madeira\ HD\ Papel\ De\ Parede.jpg);
     background-color: var(--cor2);
+    background-size: 100% 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    padding: 10px;
+}
+#foto1 {
+    background-image: url(foto/minhaimagem.jpg);
+    background-size: 100% 100%;
+    background-color: var(--cor4);
+    height: 400px;
+    width: 400px;
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
 }
 img {
     max-width: 350px;

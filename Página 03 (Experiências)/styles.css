@@ -85,10 +85,10 @@ aside {
     padding: 30px 10px 10px 10px;
 }
 
-aside > p {
+footer > p {
     text-align: center;
     background-color: var(--cor3);
-    padding: 5px 0px 48px 0px;
+    padding: 5px 0px 55px 0px;
     max-width: 780px;
     margin: auto;
     margin-top: -30px;
@@ -108,10 +108,10 @@ aside > p {
     display: inline-block;
     margin-top: 3px;
 }
-aside > p > a:hover{
+footer > p > a:hover{
     background-color: black;
 }
-aside > p {
+footer > p {
     font-family: var(--fonte-escrita);
 }
 .voltar {
@@ -126,7 +126,8 @@ aside > p {
     background-color: var(--cor5);
     color: white;
     font-size: 1.3em;
-    
+    display: inline-block;
+    margin-left: 20px;
 }
 nav > p {
     background-color: var(--cor3);

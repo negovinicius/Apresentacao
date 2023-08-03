@@ -118,7 +118,7 @@ ul {
     margin-top: 50px;
 }
 .voltar {
-    margin-left: 15px;
+    margin: 0px 0px 5px 20px;
     text-decoration: none;
     color: white;
     padding: 1px 2px 2px 2px;
@@ -133,4 +133,7 @@ ul {
 }
 a.link::after {
     content: '\00A0\2197';
+}
+footer {
+    padding: 10px 10px 15px 10px;
 }
