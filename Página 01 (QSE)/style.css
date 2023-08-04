@@ -46,13 +46,13 @@ body {
     background-attachment: fixed;
     height: 97vh;
     padding: 10px;
-    max-width: 800px;
+    max-width: 1800px;
 }
 
 header {
     background-image: linear-gradient(var(--cor3), var(--cor2), var(--cor3));
     text-align: center;
-    margin-top: 150px;
+    margin: 150px 0px 0px 0px;
     background-color: var(--cor5);
     padding: 20px;
     min-height: 50px;
