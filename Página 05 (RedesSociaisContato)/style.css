@@ -45,6 +45,8 @@ body {
     background-attachment: fixed;
     height: 97vh;
     padding: 10px;
+    max-width: 300px;
+    margin: auto;
 }
 
 header {
@@ -63,9 +65,7 @@ nav {
     background-color: var(--cor3);
 }
 main {
-    max-width: 200px;
     text-align: center;
-    margin: auto;
     padding: 10px 10px 20px 10px;
     background-image: linear-gradient(var(--cor3), var(--cor2), var(--cor3));
     font-family: var(--fonte-escrita);
