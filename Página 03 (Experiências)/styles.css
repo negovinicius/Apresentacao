@@ -2,24 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Bebas+Neue&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-/* Agdasima 
-max-width: 500px; // Limite maximo do texto
-white-space: nowrap; // Removendo quebra de linha
-overflow: hidden; // Removendo a barra de rolagem
-text-overflow: ellipsis; // Adicionando "..." ao final do texto
-
-
-overflow: hidden; // Removendo barra de rolagem
-text-overflow: ellipsis; // Adicionando "..." ao final
-display: -webkit-box;
--webkit-line-clamp: 2; // Quantidade de linhas
--webkit-box-orient: vertical; 
-
-
-
-
-*/
-
 :root {
     --cor1: #81604c;
     --cor2: #70513d;
@@ -27,7 +9,7 @@ display: -webkit-box;
     --cor4: #4e3220;
     --cor5: #3d2311;
 
-    --fonte-escrita: arial, verdana, helvetica, sans-serif;
+
     --fonte-destaque: 'Bebas Neue', cursive;
     --fonte-padrao: 'Agdasima', cursive;
 }
@@ -45,9 +27,10 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 97vh;
-    padding: 10px;
-    max-width: 750px;
+    padding: 20px;
     margin: auto;
+    
+    
 }
 
 header {
@@ -64,35 +47,43 @@ header > h2 {
 }
 
 main {
+    margin: auto;
     text-align: justify;
     columns: 2;
     background-image: linear-gradient(var(--cor3), var(--cor2), var(--cor3), var(--cor3));
     font-family: var(--fonte-padrao);
     font-size: 1em;
-    margin-top: -10px;
+    margin-top: 40px;
     padding: 15px;
+    border: 15px solid var(--cor4);
+    box-shadow: 2px 1px 1px 1px rgba(0, 0, 0, 0.627);
+    max-width: 750px;
 }
 .soma {
     padding: 30px 0px 10px 10px;
+    text-align: justify;
 }
 .tirol {
     padding: 2px 10px 5px 10px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+    text-align: justify;
     
 }
 .vendedor{
-    padding: 30px 10px 10px 10px;
+    padding: 30px 10px 0px 10px;
+    text-align: justify;
 }
 .almoxarife {
-    padding: 30px 10px 10px 10px;
+    padding: 30px 10px 20px 10px;
+    text-align: justify;
 }
 
 footer > p {
+    margin-top: 70px;
     text-align: center;
     background-color: var(--cor3);
     font-family: var(--fonte-padrao);
     font-size: 1.1em;
-    padding: 5px 0px 20px 0px;
 }
 .proximo {
     text-decoration: none;
@@ -131,6 +122,6 @@ nav > p {
     margin: auto;
     padding-bottom: 5px;
 }
-nav > p > a:hover{
+footer, nav > p > a:hover {
     background-color: black;
 }

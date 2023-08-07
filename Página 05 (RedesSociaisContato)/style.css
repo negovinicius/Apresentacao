@@ -52,7 +52,6 @@ body {
 header {
     text-align: center;
     padding: 20px;
-    margin-top: 85px;
     background-image: linear-gradient(var(--cor3), var(--cor2), var(--cor3));
     font-family: var(--fonte-destaque);
     font-size: 2em;
@@ -63,13 +62,18 @@ header > h2 {
 }
 nav {
     background-color: var(--cor3);
+    text-align: left;
 }
 main {
     text-align: center;
     padding: 10px 10px 20px 10px;
     background-image: linear-gradient(var(--cor3), var(--cor2), var(--cor3));
     font-family: var(--fonte-escrita);
-    font-size: 16px
+    font-size: 16px;
+    border: 15px solid var(--cor4);
+    box-shadow: 2px 1px 1px 1px rgba(0, 0, 0, 0.627);
+    max-width: 750px;
+    margin-top: 40px;
 }
 .link {
     text-decoration: none;
@@ -102,8 +106,8 @@ a:hover {
     box-shadow: 2px 2px 2px 2px rgb(0, 0, 0);
     background-color: var(--cor5);
     font-size: 1.5em;
-    display: inline-block;
     margin-top: 30px;
+    text-decoration: none;
 } 
 ul {
     text-align: justify;

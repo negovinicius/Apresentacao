@@ -2,23 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Bebas+Neue&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-/* Agdasima 
-max-width: 500px; // Limite maximo do texto
-white-space: nowrap; // Removendo quebra de linha
-overflow: hidden; // Removendo a barra de rolagem
-text-overflow: ellipsis; // Adicionando "..." ao final do texto
-
-
-overflow: hidden; // Removendo barra de rolagem
-text-overflow: ellipsis; // Adicionando "..." ao final
-display: -webkit-box;
--webkit-line-clamp: 2; // Quantidade de linhas
--webkit-box-orient: vertical; 
-
-
-
-
-*/
 
 :root {
     --cor1: #81604c;
@@ -27,7 +10,7 @@ display: -webkit-box;
     --cor4: #4e3220;
     --cor5: #3d2311;
 
-    --fonte-escrita: arial, verdana, helvetica, sans-serif;
+    
     --fonte-destaque: 'Bebas Neue', cursive;
     --fonte-padrao: 'Agdasima', cursive;
 }
@@ -45,7 +28,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 97vh;
-    padding: 10px;
+    padding: 20px;
     max-width: 600px;
     margin: auto;
 }
@@ -53,7 +36,6 @@ body {
 header {
     text-align: center;
     padding: 20px;
-    margin-top: 80px;
     background-image: linear-gradient(var(--cor3), var(--cor2), var(--cor3));
     font-family: var(--fonte-destaque);
     font-size: 2em;
@@ -63,18 +45,22 @@ header > h2 {
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.212);
 }
 main {
+    margin-top: 50px;
     text-align: justify;
     padding: 20px 10px 20px 10px;
     background-image: linear-gradient(var(--cor3), var(--cor2), var(--cor3));
     font-family: var(--fonte-padrao);
     font-size: 1.1em;
+    border: 15px solid var(--cor4);
+    box-shadow: 2px 1px 1px 1px rgba(0, 0, 0, 0.627);
+    max-width: 750px;
 }
 .formacoes {
-    padding-bottom: 10px;
+    padding:10px
 }
 .descricao {
-    text-indent: 10px;
-    padding-bottom: 20px;
+    text-align: justify;
+    padding: 10px;
 }
 .freecode {
     text-decoration: none;
@@ -100,7 +86,10 @@ main {
     background-color: var(--cor5);
     font-size: 0.9em;
 }
-
+article > p {
+    padding: 10px;
+    text-align: justify;
+}
 article > p > a:hover {
     background-color: black;
 }
@@ -122,10 +111,9 @@ article > p > a:hover {
 }
 footer {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 20px;
     font-family: var(--fonte-escrita);
     font-weight: bold;
-    padding-bottom: 20px;
 }
 .proxima {
     text-decoration: none;
@@ -162,7 +150,7 @@ nav > p > a:hover {
 }
 nav > p {
     background-color: var(--cor3);
-    padding-bottom: 5px;
+    padding-bottom: 15px;
 }
 a.android::after {
     content: '\00A0\2197';

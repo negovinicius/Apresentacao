@@ -1,23 +1,6 @@
 @charset "UTF_8";
 @import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Bebas+Neue&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-/* Agdasima 
-max-width: 500px; // Limite maximo do texto
-white-space: nowrap; // Removendo quebra de linha
-overflow: hidden; // Removendo a barra de rolagem
-text-overflow: ellipsis; // Adicionando "..." ao final do texto
-
-
-overflow: hidden; // Removendo barra de rolagem
-text-overflow: ellipsis; // Adicionando "..." ao final
-display: -webkit-box;
--webkit-line-clamp: 2; // Quantidade de linhas
--webkit-box-orient: vertical; 
-
-
-
-
-*/
 
 :root {
     --cor1: #81604c;
@@ -69,8 +52,6 @@ display: -webkit-box;
     transform: translate(-50%, -50%);
 }
 #frase {
-    min-width: 360px;
-    max-width: 360px;
     color: white;
     text-align: center;
     height: 20px;
@@ -84,6 +65,7 @@ display: -webkit-box;
     left: 50%;
     top: 10%;
     transform: translate(-50%, -50%);
+    white-space: nowrap;
 }
 footer {
     text-align: center;
