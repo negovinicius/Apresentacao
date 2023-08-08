@@ -32,6 +32,13 @@ body {
     max-width: 400px;
     margin: auto;
 }
+nav > p {
+    text-indent: 5px;
+    background-color: var(--cor3);
+}
+nav > p > a:hover {
+    background-color: #000000;
+}
 
 header {
     background-image: linear-gradient(var(--cor3), var(--cor2), var(--cor3));
@@ -91,10 +98,7 @@ footer > p {
 footer > p > a:hover {
     background-color: #000000;
 }
-nav > p {
-    text-indent: 5px;
-    background-color: var(--cor3);
-}
+
 .Voltar {
     text-decoration: none;
     color: white;
@@ -109,7 +113,4 @@ nav > p {
     font-size: 1.3em;
     display: inline-block;
     margin: 0px 0px 5px 2px;
-}
-nav > p > a:hover {
-    background-color: #000000;
 }

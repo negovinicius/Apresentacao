@@ -31,6 +31,14 @@ body {
     padding: 20px;
     max-width: 600px;
     margin: auto;
+
+}
+nav > p > a:hover {
+    background-color: black;
+}
+nav > p {
+    background-color: var(--cor3);
+    padding-bottom: 15px;
 }
 
 header {
@@ -38,7 +46,7 @@ header {
     padding: 20px;
     background-image: linear-gradient(var(--cor3), var(--cor2), var(--cor3));
     font-family: var(--fonte-destaque);
-    font-size: 2em;
+    font-size: 1.7em;
     color: white;
 }
 header > h2 {
@@ -55,6 +63,14 @@ main {
     box-shadow: 2px 1px 1px 1px rgba(0, 0, 0, 0.627);
     max-width: 750px;
 }
+article > p {
+    padding: 10px;
+    text-align: justify;
+}
+article > p > a:hover {
+    background-color: black;
+}
+
 .formacoes {
     padding:10px
 }
@@ -74,6 +90,10 @@ main {
     background-color: var(--cor5);
     font-size: 0.9em;
 }
+
+a.freecode::after {
+    content: '\00A0\2197';
+}
 .android {
     text-decoration: none;
     color: white;
@@ -86,16 +106,15 @@ main {
     background-color: var(--cor5);
     font-size: 0.9em;
 }
-article > p {
-    padding: 10px;
-    text-align: justify;
+
+a.android::after {
+    content: '\00A0\2197';
 }
-article > p > a:hover {
-    background-color: black;
-}
+
 .projeto {
     max-width: 410px;
 }
+
 .gustavo {
     text-decoration: none;
     color: white;
@@ -109,12 +128,10 @@ article > p > a:hover {
     font-size: 0.9em;
     display: inline-block;
 }
-footer {
-    text-align: center;
-    margin-top: 20px;
-    font-family: var(--fonte-escrita);
-    font-weight: bold;
+a.gustavo::after {
+    content: '\00A0\2197';
 }
+
 .proxima {
     text-decoration: none;
     font-family: var(--fonte-padrao);
@@ -128,6 +145,14 @@ footer {
     font-size: 1.4em;
     display: inline-block;
 }
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-family: var(--fonte-escrita);
+    font-weight: bold;
+}
+
 footer > p > a:hover {
     background-color: black;
 }
@@ -145,19 +170,5 @@ footer > p > a:hover {
     display: inline-block;
     margin-left: 20px;
 }
-nav > p > a:hover {
-    background-color: black;
-}
-nav > p {
-    background-color: var(--cor3);
-    padding-bottom: 15px;
-}
-a.android::after {
-    content: '\00A0\2197';
-}
-a.freecode::after {
-    content: '\00A0\2197';
-}
-a.gustavo::after {
-    content: '\00A0\2197';
-}
+
+
