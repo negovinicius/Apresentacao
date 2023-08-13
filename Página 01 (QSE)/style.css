@@ -28,17 +28,18 @@ body {
 }
 
 header {
+    background-image: linear-gradient(var(--cor3), var(--cor2), var(--cor3));
     margin: auto;
     max-width: 500px;
-    background-color: transparent;
     text-align: center;
     margin-top: 150px;
-    padding: 2px;
+    padding: 15px;
     color: white;
     border: 15px solid var(--cor4);
     box-shadow: 2px 1px 1px 1px rgba(0, 0, 0, 0.627);
 }
 header > h1 {
+    background-image: linear-gradient(var(--cor3), var(--cor2), var(--cor2), var(--cor3));
     font-size: 4em;
     font-family: var(--fonte-destaque);
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.212);
