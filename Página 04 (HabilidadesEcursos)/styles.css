@@ -79,6 +79,7 @@ article > p > a:hover {
     padding: 10px;
 }
 .freecode {
+    margin: 5px;
     text-decoration: none;
     color: white;
     padding: 1px 2px 2px 2px;
@@ -94,7 +95,8 @@ article > p > a:hover {
 a.freecode::after {
     content: '\00A0\2197';
 }
-.android {
+.git {
+    margin: 5px;
     text-decoration: none;
     color: white;
     padding: 2px;
@@ -107,13 +109,10 @@ a.freecode::after {
     font-size: 0.9em;
 }
 
-a.android::after {
+a.git::after {
     content: '\00A0\2197';
 }
 
-.projeto {
-    max-width: 410px;
-}
 
 .gustavo {
     text-decoration: none;

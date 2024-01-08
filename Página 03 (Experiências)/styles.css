@@ -65,19 +65,12 @@ main {
     box-shadow: 2px 1px 1px 1px rgba(0, 0, 0, 0.627);
     max-width: 750px;
 }
-.soma {
-    padding: 5px 0px 5px 5px;
-    text-align: justify;
-}
+
 .tirol {
-    padding: 0px 5px 5px 5px;
+    padding: 20px 5px 5px 5px;
     margin-bottom: 20px;
     text-align: justify;
-    
-}
-.vendedor{
-    padding: 5px 5px 5px 5px;
-    text-align: justify;
+
 }
 .almoxarife {
     padding: 10px 5px 5px 5px;
